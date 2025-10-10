@@ -38,6 +38,15 @@ The code has been tested with Python 3.6+ and runs both on Ubuntu 16.04, 18.04 a
 We use 10,000 images for training and 1,000 images for validation. Following the original paper, we chose 
 those 10,000 + 1,000 images randomly from celebHQ Dataset
 
+<details>
+<summary><b>✅ To-Do</b> (click to expand)</summary>
+
+- [x] Add Baseline SpecGuard
+- [ ] Add Full SpecGuard
+- [ ] Add Model Weight
+
+</details>
+
 The data directory has the following structure:
 ```
 <data_root>/
@@ -112,6 +121,7 @@ When measuring the decoder accuracy, we do not use error-correcting codes like i
 * **Crop((0.2,0.25),...)** is shorthand for Crop((0.2,0.25),(0.2,0.25)). This means that the height and the weight of the cropped image have the expected value of (0.25 + 0.2)/2 = 0.225. Therefore, the ratio of (expected) area of the  Cropped image against the original image is 0.225x0.225 ≈ 0.05. The paper used p = 0.035.
 * **Cropout((0.55,0.6),...)** is a shorhand for Cropout((0.55,0.6),(0.55,0.6)). Similar to Crop(...), this translates to ratio of Cropped vs original image areas with p ≈ 0.33. The paper used p = 0.3
 * **Jpeg** the same as the Jpeg layer from the paper. It is a differentiable approximation of Jpeg compression with the highest compression coefficient.
-* **combined-noise** is the configuration 'crop((0.4,0.55),(0.4,0.55))+cropout((0.25,0.35),(0.25,0.35))+dropout(0.25,0.35)+resize(0.4,0.6)+jpeg()'. This is somewhat similar to combined noise configuation in the paper. 
+* **combined-noise** is the configuration 'crop((0.4,0.55),(0.4,0.55))+cropout((0.25,0.35),(0.25,0.35))+dropout(0.25,0.35)+resize(0.4,0.6)+jpeg()'. This is somewhat similar to combined noise configuation in the paper.
+
 
 
