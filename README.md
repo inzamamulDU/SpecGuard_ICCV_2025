@@ -38,15 +38,6 @@ The code has been tested with Python 3.6+ and runs both on Ubuntu 16.04, 18.04 a
 We use 10,000 images for training and 1,000 images for validation. Following the original paper, we chose 
 those 10,000 + 1,000 images randomly from celebHQ Dataset
 
-<details>
-<summary><b>✅ To-Do</b> (click to expand)</summary>
-
-- [x] Add Baseline SpecGuard
-- [ ] Add Full SpecGuard
-- [ ] Add Model Weight
-
-</details>
-
 The data directory has the following structure:
 ```
 <data_root>/
@@ -124,4 +115,11 @@ When measuring the decoder accuracy, we do not use error-correcting codes like i
 * **combined-noise** is the configuration 'crop((0.4,0.55),(0.4,0.55))+cropout((0.25,0.35),(0.25,0.35))+dropout(0.25,0.35)+resize(0.4,0.6)+jpeg()'. This is somewhat similar to combined noise configuation in the paper.
 
 
+<details>
+<summary><b>✅ To-Do</b> (click to expand)</summary>
 
+- [x] Add Baseline SpecGuard
+- [ ] Add Full SpecGuard
+- [ ] Add Model Weight
+
+</details>
