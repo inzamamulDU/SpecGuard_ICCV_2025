@@ -123,3 +123,5 @@ When measuring the decoder accuracy, we do not use error-correcting codes like i
 - [ ] Add Model Weight
 
 </details>
+
+This codebase follows the **HiDDeN (Hiding Data with Deep Networks)** approach and adapts parts of the reference implementation: https://github.com/ando-khachatryan/HiDDeN
