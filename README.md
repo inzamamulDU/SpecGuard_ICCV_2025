@@ -1,7 +1,7 @@
 <h5 align="center"><strong><a href="https://iccv.thecvf.com/">Accepted at International Conference on Computer Vision (ICCV 2025), Honolulu, Hawai, USA</a></strong></h4>
 
 <h3 align="center"><strong>SpecGuard: Spectral Projection-based Advanced Invisible Watermarking
-  <a href="assets/SpecGuard_ICCV_2025.pdf" target="_blank"> [Paper]</a>
+  <a href="https://arxiv.org/abs/2510.07302" target="_blank"> [Paper]</a>
 </strong></h3>
 
 <h6 align="center">
