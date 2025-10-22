@@ -55,6 +55,17 @@ The data directory has the following structure:
 
 ```train_class``` and ```val_class``` folders are so that we can use the standard torchvision data loaders without change.
 
+<details>
+<summary><b>✅ To-Do</b> (click to expand)</summary>
+
+- [ ] Add Baseline SpecGuard
+- [ ] Add Full SpecGuard
+- [ ] Add Model Weight
+
+</details>
+
+##  The codebase still not updated fully
+
 ## Running
 
 You will need to install the requirements, then run 
@@ -114,14 +125,5 @@ When measuring the decoder accuracy, we do not use error-correcting codes like i
 * **Jpeg** the same as the Jpeg layer from the paper. It is a differentiable approximation of Jpeg compression with the highest compression coefficient.
 * **combined-noise** is the configuration 'crop((0.4,0.55),(0.4,0.55))+cropout((0.25,0.35),(0.25,0.35))+dropout(0.25,0.35)+resize(0.4,0.6)+jpeg()'. This is somewhat similar to combined noise configuation in the paper.
 
-
-<details>
-<summary><b>✅ To-Do</b> (click to expand)</summary>
-
-- [ ] Add Baseline SpecGuard
-- [ ] Add Full SpecGuard
-- [ ] Add Model Weight
-
-</details>
 
 This codebase follows the **HiDDeN (Hiding Data with Deep Networks)** approach and adapts parts of the reference implementation: https://github.com/ando-khachatryan/HiDDeN
