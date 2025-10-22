@@ -118,7 +118,7 @@ When measuring the decoder accuracy, we do not use error-correcting codes like i
 <details>
 <summary><b>✅ To-Do</b> (click to expand)</summary>
 
-- [x] Add Baseline SpecGuard
+- [ ] Add Baseline SpecGuard
 - [ ] Add Full SpecGuard
 - [ ] Add Model Weight
 
