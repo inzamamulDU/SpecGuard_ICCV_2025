@@ -27,12 +27,6 @@
 
 ![](https://raw.githubusercontent.com/tanvirnwu/SpecGuard_ICCV_2025/refs/heads/main/assets/SpecGuard.jpg)
 
-## Requirements
-
-You need [Pytorch](https://pytorch.org/) 1.0 with TorchVision to run this.
-If you want to use Tensorboard, you need to install TensorboardX and Tensorboard. This allows to use a subset of Tensorboard functionality to visualize the training. However, this is optional.
-The code has been tested with Python 3.6+ and runs both on Ubuntu 16.04, 18.04 and Windows 10.
-
 
 <details>
 <summary><b>✅ To-Do</b> (click to expand)</summary>
